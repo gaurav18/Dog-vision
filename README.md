@@ -10,17 +10,17 @@ Since the most important step in a deep learning problem is getting the data rea
 
 We're going to go through the following TensorFlow/Deep Learning workflow:
 
-1.Get data ready (download from Kaggle, store, import).
+1. Get data ready (download from Kaggle, store, import).
 
-2.Prepare the data (preprocessing, the 3 sets, X & y).
+2. Prepare the data (preprocessing, the 3 sets, X & y).
 
-3.Choose and fit/train a model (TensorFlow Hub, tf.keras.applications, TensorBoard, EarlyStopping).
+3. Choose and fit/train a model (TensorFlow Hub, tf.keras.applications, TensorBoard, EarlyStopping).
 
-4.Evaluating a model (making predictions, comparing them with the ground truth labels).
+4. Evaluating a model (making predictions, comparing them with the ground truth labels).
 
-5.Improve the model through experimentation (start with 1000 images, make sure it works, increase the number of images).
+5. Improve the model through experimentation (start with 1000 images, make sure it works, increase the number of images).
 
-6.Save, sharing and reloading your model (once you're happy with the results).
+6. Save, sharing and reloading your model (once you're happy with the results).
 
 For preprocessing our data, we're going to use TensorFlow 2.x. The whole premise here is to get our data into Tensors (arrays of numbers which can be run on GPUs) 
 and then allow a machine learning model to find patterns between them.
