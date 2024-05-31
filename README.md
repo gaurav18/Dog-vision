@@ -1,6 +1,6 @@
-In this project we have used machine learning to help us identify different breeds of dogs.
+In this project i have used machine learning to help us identify different breeds of dogs.
 
-To do this, we've used data from the Kaggle dog breed identification competition. It consists of a collection of 10,000+ labelled images of 120 different dog breeds.
+To do this, i've used data from the Kaggle dog breed identification competition. It consists of a collection of 10,000+ labelled images of 120 different dog breeds.
 
 This kind of problem is called multi-class image classification. It's multi-class because we're trying to classify mutliple different breeds of dog. If we were only trying to classify dogs versus cats, it would be called binary classification (one thing versus another).
 
@@ -8,7 +8,7 @@ Multi-class image classification is an important problem because it's the same k
 
 Since the most important step in a deep learning problem is getting the data ready (turning it into numbers), that's what we're going to start with.
 
-We've gone through the following TensorFlow/Deep Learning workflow:
+I've gone through the following TensorFlow/Deep Learning workflow:
 
 1. Get data ready (download from Kaggle, store, import).
 
@@ -22,9 +22,9 @@ We've gone through the following TensorFlow/Deep Learning workflow:
 
 6. Save, sharing and reloading your model (once you're happy with the results).
 
-For preprocessing our data, we've used TensorFlow 2.x. The whole premise here is to get our data into Tensors (arrays of numbers which can be run on GPUs) 
+For preprocessing the data, i've used TensorFlow 2.x. The whole premise here is to get our data into Tensors (arrays of numbers which can be run on GPUs) 
 and then allow a machine learning model to find patterns between them.
 
-For our machine learning model, we've used a pretrained deep learning model from TensorFlow Hub.
+For the machine learning model, I've used a pretrained deep learning model from TensorFlow Hub.
 
 The process of using a pretrained model and adapting it to your own problem is called transfer learning. We do this because rather than train our own model from scratch (could be timely and expensive), we leverage the patterns of another model which has been trained to classify images.
